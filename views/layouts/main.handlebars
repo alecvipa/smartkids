@@ -46,7 +46,7 @@
             };
             obj.open("post", form.action, true);
             obj.setRequestHeader("Content-Type", "application/json"); // NOTICE: "application/json"
-            obj.send(JSON.stringify({ name: form.name.value, number: form.number.value, email: form.email.value }));
+            obj.send(JSON.stringify({ name: form.name.value, number: form.number.value, email: form.email.value, message: form.message.value }));
             alert("¡En breve te contactaremos!");
             $(".formInput").val(" ");
             return false;
@@ -59,7 +59,7 @@
     <div class="bodyPrincipal">
         {{{body}}}
     </div>
-    
+
     {{!-- FOOTER STARTS --}}
     <div class="footer bg-light">
         <div class="container textr-center">
@@ -67,7 +67,7 @@
 
                 <div class="col-md-3"></div>
                 <div class="col-md-6 text-center">
-                    <p><b>Terraza i662</b> Todos los derechos reservados. Sus datos están
+                    <p><b>Smart Kids</b> Todos los derechos reservados. Sus datos están
                         protegidos por
                         la ley de privacidad. <span><a href="/privacidad" style="color: gray;">Visita nuestra
                                 política de privacidad</a></span></p>
