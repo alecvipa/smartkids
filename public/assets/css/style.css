@@ -81,6 +81,9 @@
     
 }
 @media(max-width:991px){
+    .divContacto{
+        display: none;
+    }
     .imageContactoSmart{
         height: 300px !important;
     }
