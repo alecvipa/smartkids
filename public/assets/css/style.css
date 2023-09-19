@@ -1,19 +1,30 @@
-
-.fonts3{
-    font-family: 'Montserrat';
+.fonts3 {
+    font-family: 'arial';
 
 }
-.fontBold{
+.justifiedText{
+    text-align: justify !important;
+}
+
+.fonts2 {
+    font-family: 'Mooli', sans-serif !important;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+.fontBold {
     font-weight: bold !important;
 }
-.footer{
+
+.footer {
     padding-top: 3%;
 
 }
+
 .pointer {
     cursor: pointer;
 }
-.inicioDivT{
+
+.inicioDivT {
     height: 40rem;
     background-image: url("/assets/images/bannerSmartInicio.jpg");
     background-position: center;
@@ -22,22 +33,24 @@
     margin-bottom: 3%;
 
 }
-.divContacto{
-    background-color:   #3c9fd0  !important;
+
+.divContacto {
+    background-color: #3c9fd0 !important;
     padding-top: 1%;
     padding-left: 12%;
     padding-right: 12%;
     padding-bottom: 1%;
 }
 
-.nosotrosT{
-     margin-top: -3%;
+.nosotrosT {
+    margin-top: -3%;
 }
-.bannerConsultingJofer{
+
+.bannerConsultingJofer {
     background-image: url("/assets/images/bannerCosulting.jpg");
 }
 
-.bannerSpace{
+.bannerSpace {
     height: 16rem;
     background-image: url("/assets/images/bannerSpace.jpg");
     background-position: center;
@@ -46,7 +59,8 @@
     margin-bottom: 3%;
     margin-top: 5%;
 }
-.privacidadBanner{
+
+.privacidadBanner {
     height: 36rem;
     background-image: url("/assets/images/bannerSmartInicio.jpg");
     background-position: center;
@@ -54,14 +68,17 @@
     background-size: cover;
 
 }
-.tablePrivacidad{
+
+.tablePrivacidad {
     margin-bottom: 15%;
 }
-.divCatchUp{
+
+.divCatchUp {
     padding-top: 3%;
     margin-top: -3%;
 }
-.componentsDiv{
+
+.componentsDiv {
     margin-top: -5%;
 }
 
@@ -74,40 +91,46 @@
     .rounded-bl-lg-5 {
         border-bottom-left-radius: 0.5rem;
     }
-    
+
 }
 
-@media(min-width:992px){
-    
-}
-@media(max-width:991px){
-    .divContacto{
+@media(min-width:992px) {}
+
+@media(max-width:991px) {
+    .divContacto {
         display: none;
     }
-    .imageContactoSmart{
+
+    .imageContactoSmart {
         height: 300px !important;
     }
-    .componentsDiv{
+
+    .componentsDiv {
         margin-top: -31%;
     }
-    .divCatchUp{
+
+    .divCatchUp {
         display: none;
     }
-    .footer{
+
+    .footer {
         padding-top: 10%;
         padding-left: 3%;
         padding-right: 3%;
     }
-    #contacto{
+
+    #contacto {
         margin-top: -30%;
         margin-bottom: -30%;
     }
-    .responsiveMarginCard{
+
+    .responsiveMarginCard {
         margin-top: 5%;
     }
-    .inicioDivT{
+
+    .inicioDivT {
         height: 26rem;
-    
+
     }
-   
+
 }
