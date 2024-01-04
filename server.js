@@ -67,7 +67,7 @@ app.post("/ajax/email", function (request, response) {
     var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p> <p>Número de contacto: ${request.body.number} </p> <p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Mensaje: ${request.body.message} </p>`;
     var mail = {
         from: '"Team: Xyncs Web Studio',
-        to: 'hebrit_626@hotmail.com',
+        to: 'direccionacademica@smartkids.com.mx',
         subject: '¡Nuevo Mensaje de SMART KIDS!',
         html: htmlBody
     };
